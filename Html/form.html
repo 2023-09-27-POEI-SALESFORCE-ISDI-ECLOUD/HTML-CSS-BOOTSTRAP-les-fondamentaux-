@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+
+	<form action="" method="post">
+
+		<label for="name">Nom :</label>
+		<input type="text" id="name" name="LeNom">
+		<label for="email">Email :</label>
+		<input type="email" id="email" name="email" required>
+		<label for="phone">Téléphone :</label>
+		<input type="tel" id="phone" name="phone" pattern="0[67][0-9]{8}">
+		
+		<input type="number" name="age" id="age" min="18" max="70" value="40" step="2">
+
+		<button type="submit">OK</button>
+		<button type="reset">Reset</button>
+	</form>
+</body>
+</html>

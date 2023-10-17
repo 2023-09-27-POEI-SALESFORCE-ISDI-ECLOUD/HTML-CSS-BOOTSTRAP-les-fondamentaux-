@@ -1,0 +1,43 @@
+a[href*="fr"] {
+  color: green;
+}
+
+a[href*="fr"]::before {
+  content: "🇵🇼";
+}
+
+p.yellow#violet {
+  color: violet;
+}
+
+a {
+  font-size: 30px;
+}
+
+p {
+  color: red;
+}
+
+div p a {
+  color: green;
+}
+
+p.yellow {
+  color: yellow;
+}
+
+p.yellow.bg {
+  background-color: black;
+}
+
+div > p {
+  background-color: red;
+}
+
+div > span > p {
+  background-color: blue;
+}
+
+div > p.bg-red {
+  background-color: red;
+}

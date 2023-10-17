@@ -1,0 +1,7 @@
+p + h1 {
+  background-color: olive;
+}
+
+div > * {
+  background-color: red;
+}

@@ -1,0 +1,33 @@
+p {
+  color: red;
+}
+
+/* CSS */
+.classe-exemple {
+  color: blue;
+}
+
+#monID {
+  font-size: 24px;
+  color: yellow;
+}
+
+input[required] {
+  background-color: red;
+}
+
+a[href^="http"] {
+  color: grey;
+}
+
+a[href^="https"] {
+  color: green;
+}
+
+a[href$=".com"] {
+  color: red;
+}
+
+a[href*=".fr"] {
+  color: blue;
+}

@@ -1,0 +1,41 @@
+a {
+  background-color: blue;
+  border-radius: 20px;
+  text-align: center;
+  width: 20%;
+  height: 20%;
+  display: block;
+  border-color: blue;
+  border-style: solid;
+  border-width: 3px;
+}
+
+a:hover {
+  background-color: white;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+li:nth-child(2),
+li:nth-child(3) {
+  background-color: lightgray;
+}
+
+li::first-letter {
+  font-size: 30px;
+}
+
+li::first-line {
+  text-transform: uppercase;
+}
+
+*::selection {
+  background-color: black;
+  color: yellow;
+}
